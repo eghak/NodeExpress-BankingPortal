@@ -26,4 +26,4 @@ router.post(`payment`, (req, res) => {
   });
 });
 
-module.export = router;
+module.exports = router;
