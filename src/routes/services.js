@@ -1,6 +1,6 @@
 const express = require(`express`);
 const router = express.Router();
-const { account, writeJSON } = require(`../data`);
+const { accounts, writeJSON } = require(`../data`);
 
 router.get(`/transfer`, (req, res) => res.render(`transfer`));
 router.post(`/transfer`, (req, res) => {
